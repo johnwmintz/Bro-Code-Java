@@ -27,6 +27,12 @@ public class Main {
 
         System.out.println(currency + price);
 
+        String car = "Mustang";
+        String color = "red";
+
+        System.out.println("Your choice is a " +  color + " " + year + " " + car);
+        System.out.print(currency);
+        System.out.println("The cost is " + currency + price);
     }
 
 }
