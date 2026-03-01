@@ -11,8 +11,11 @@ public class Main {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
 
-        System.out.println("Hello " + name + " you are " + age + " years old");
+        System.out.print("Enter your gpa: ");
+        double gpa = scanner.nextDouble();
 
+        System.out.println("Hello " + name + " you are " + age + " years old.");
+        System.out.println("Your GPA is " + gpa + ".");
         scanner.close();
 
     }
