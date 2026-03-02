@@ -1,4 +1,5 @@
 //This is a basic application on how to calculate square feet
+//I learned most of this from using Bro Code from YouTube
 
 //This imports the utility to allow user input
 import java.util.Scanner;
