@@ -3,10 +3,11 @@ public class printfComma {
         double number1 = 1000.75;
         double number2 = 4257.124;
         double number3 = 100000.25;
+        char currency = '$';
 
-        System.out.printf("%,.2f\n", number1);
-        System.out.printf("%,.2f\n", number2);
-        System.out.printf("%,.2f\n", number3);
+        System.out.printf("%c%,.2f\n",currency, number1);
+        System.out.printf("%c%,.2f\n",currency, number2);
+        System.out.printf("%c%,.2f\n",currency, number3);
     }
 
 }
