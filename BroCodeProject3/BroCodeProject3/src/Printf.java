@@ -12,7 +12,7 @@ public class Printf {
         double height = 60.5;
         boolean isEmployed = true;
 
-        //Printing ines
+        //Printing lines
         
         System.out.printf("Hello %s\n", name);
         System.out.printf("Your name starts with a letter %c\n", firstLetter);
